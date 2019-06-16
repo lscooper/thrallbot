@@ -4,7 +4,10 @@
   "description": "a discord bot to send a picture to your friends to easily demonstrate your annoyance",
   "main": "thrallbot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node thrallbot.js"
+
+
   },
   "repository": {
     "type": "git",
