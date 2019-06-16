@@ -3,7 +3,8 @@ const Discord = require('discord.js');
 var auth = require('./auth.json');
 
 var client = new Discord.Client({
-    token: auth.token,
+   // token: auth.token,
+    token: process.env.TOKEN,
     autorun: true
  });
 
@@ -30,4 +31,4 @@ client.on('message', message => {
   }
 });
 
-client.login(auth.token);
+client.login(process.env.TOKEN);
