@@ -28,7 +28,10 @@ client.on('message', message => {
     message.channel.send('https://cdn.discordapp.com/attachments/244960108239388682/310537986884370432/Wow-64_2017-04-27_20-36-22-27.png');
  message.channel.send('https://cdn.discordapp.com/attachments/244960108239388682/310537986884370432/Wow-64_2017-04-27_20-36-22-27.png'); 
  message.channel.send('https://cdn.discordapp.com/attachments/244960108239388682/310537986884370432/Wow-64_2017-04-27_20-36-22-27.png'); 
-  }
+    }
+    if (message.content.match("howdy :3")) {
+        message.channel.send('https://cdn.discordapp.com/attachments/804953498177372230/816195352989794314/image0.png');      
+    }
 });
 
 client.login(process.env.TOKEN);
